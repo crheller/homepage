@@ -9,7 +9,7 @@ body {
 /* profile pic/name style */
 .profile {
     text-align: center;
-    margin-top: 48px;
+    margin-top: 20px;
 }
 
 .profile_name {
@@ -38,7 +38,7 @@ body {
 
 /* page/text style */
 .about {
-    width: 45%;
+    width: 55%;
     margin: 0 auto;
 }
 
@@ -50,8 +50,14 @@ body {
 .about p#intro {
     color: black;
     text-align: justify;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.about p#project {
+    color: black;
+    font-size: 16px;
+    margin-top: -6px;    
 }
 
 .about p a {
@@ -62,13 +68,24 @@ body {
 .about h1 {
     color: black;
     text-align: left;
-    font-size: 28px;    
+    font-size: 28px;  
+    border-bottom: lightgrey 1px solid;  
 }
 
 .about h2 {
     color: lightslategray;
     text-align: left;
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.about br {
+    display: block;
+    margin: 6px 0;
+}
+
+.about br#big {
+    display: block;
+    margin: 40px 0;
 }
 
 /*===================================================*/
