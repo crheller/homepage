@@ -49,7 +49,7 @@ body {
 
 .about p#intro {
     color: black;
-    text-align: justify;
+    text-align: left;
     margin-top: 10px;
     margin-bottom: 60px;
 }
@@ -105,7 +105,7 @@ body {
     padding: 20px 16px; 
     font-size:30px;
     font-weight: bold; 
-    margin-left: 400px;
+    margin-left: 20%;
   }
   
   /* Style the links inside the navigation bar */
@@ -125,7 +125,7 @@ body {
     padding: 28px 16px;
     text-decoration: none;
     font-size: 17px;
-    margin-right: 400px;
+    margin-right: 20%;
   }
 
 /* Change the color of links on hover */
@@ -139,3 +139,43 @@ body {
     background-color: #4CAF50;
     color: white;
   }
+
+
+  @media screen and (max-width: 570px) {
+	.about {
+		width:100%;
+		text-align:left;
+	}
+	.profile {
+        width:100%;
+        text-align:center;
+    }
+    .topnav h {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 15px 10px; 
+            font-size:15px;
+            font-weight: bold; 
+            margin-left: 0%;
+    }
+
+    .topnav a {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 18px 5px;
+        text-decoration: none;
+        font-size: 10px;
+      }
+    
+      .topnav a#end{
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 18px 5px;
+        text-decoration: none;
+        font-size: 10px;
+        margin-right: 0%;
+      }
+}
