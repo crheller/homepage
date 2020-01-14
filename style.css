@@ -140,6 +140,10 @@ body {
     color: white;
   }
 
+.topnav a#end:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
   @media screen and (max-width: 570px) {
 	.about {
