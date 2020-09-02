@@ -61,7 +61,7 @@ body {
 }
 
 .about p a {
-    color: #4CAF50;
+    color: rgb(76, 86, 175);
     text-decoration: None;
 }
 
@@ -136,7 +136,7 @@ body {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: rgb(76, 86, 175);
     color: white;
   }
 
